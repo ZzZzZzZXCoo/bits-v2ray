@@ -11,7 +11,7 @@ jobs:
       EMAIL: ${{ secrets.GH_MAIL }}
       NAME: ${{ secrets.GH_USER }}
       TOKEN: ${{ secrets.GH_TOKEN }}
-      BRANCH_BASE_NAME: bits-v2ray
+      BRANCH_BASE_NAME: KewekHub
       BRANCH_COUNT: 100
 
     steps:
