@@ -11,8 +11,8 @@ jobs:
       EMAIL: ${{ secrets.GH_MAIL }}
       NAME: ${{ secrets.GH_USER }}
       TOKEN: ${{ secrets.GH_TOKEN }}
-      BRANCH_BASE_NAME: KewekHub
-      BRANCH_COUNT: 1
+      BRANCH_BASE_NAME: KewekSub
+      BRANCH_COUNT: 2
 
     steps:
       - name: ⚙️ Setup
